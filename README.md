@@ -12,32 +12,55 @@ Things you need to install and how to install them
 * MongoDB       -- https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
 * ChromeDriver  -- http://chromedriver.chromium.org/
 
+
+in goBack folder run these
+```
+go get gopkg.in/mgo.v2/bson
+go get github.com/sclevine/agouti
+```
+in front-end 
+```
+npm install
+```
 Not mandatory but highly recommended
 * Robo 3T       -- https://robomongo.org/
 
 ### Running
 
-After setting up the environment, you should open our project and go to the "goBack" folder
+if you have already installed everything :-) then have a break, have a kit-kat, btw thank you, it was so tasty <3
+ </br>
+https://www.youtube.com/watch?v=tG7wLK4aAOE</br>
+Hope you are ready to move on
+
+
+please go to the 'goBack' folder one more time
 ```
 cd goBack
 ```
-run these commands
+and type
 ```
-go get gopkg.in/mgo.v2/bson
-go get github.com/sclevine/agouti
 go run main.go
-```
-OK, it's time to have a break, do not yawn, take a coffee :) </br>
-https://www.youtube.com/watch?v=sBBGJZk-6vw </br>
-Hope you are ready to move on
 
-please open another terminal window and type
+```
+open another terminal window, move to the front-end director
 ```
 cd front-end
-npm install
+```
+and run the following command
+```
 npm start
 ```
 after that, you have to wait a little while, if everything is ok a new browser tab will open with roughly the same interface as https://mail.iitu.kz/zimbra/
 
+### Submitting
+Use the following template to name your project
+```
+lab#_id_Surname_Name
+example: 
+lab2_21172_Yesbolatov_Akezhan
+```
+After everything is done, you have to archive your project in .zip format and submit it:)
 
-
+### Congratulations
+YYYYYYEEEEEEAAAAAAAHHHH you did it!!!!!<br/>
+https://www.youtube.com/watch?v=SC4xMk98Pdc
