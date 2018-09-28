@@ -41,12 +41,12 @@ func users(w http.ResponseWriter, r *http.Request){
 		if err != nil {
 			panic(err)
 		}
-
 		res := Checker(data.UserID, data.UserPassword)
 		if res != nil {
+			w.WriteHeader(500)
 			return
 		}
-
+		w.WriteHeader(211)
 		collection.Insert(data)
 
 	}else {
@@ -66,7 +66,7 @@ func users(w http.ResponseWriter, r *http.Request){
 func Checker(id string, password string) error {
 	//driver := agouti.ChromeDriver()
 	driver := agouti.ChromeDriver(
-	agouti.ChromeOptions("args", []string{"--headless", "--disable-gpu", "--no-sandbox"}),
+		agouti.ChromeOptions("args", []string{"--headless", "--disable-gpu", "--no-sandbox"}),
 	)
 
 	if err := driver.Start(); err != nil {
@@ -85,28 +85,31 @@ func Checker(id string, password string) error {
 	err = page.FindByID(`username`).Fill(id)
 	if err != nil {
 		driver.Stop()
+		fmt.Println(err)
 		return err
 	}
 
 	err = page.FindByID(`password`).Fill(password)
 	if err != nil {
 		driver.Stop()
+		fmt.Println(err)
 		return err
 	}
 
 	err = page.FindByClass(`ZLoginButton`).Click()
 	if err != nil {
 		driver.Stop()
+		fmt.Println(err)
 		return err
 	}
 
-	_, err = page.FindByClass(`Status`).Text()
+	err = page.FindByID(`C0`).Click()
 	if err != nil {
 		driver.Stop()
+		fmt.Println(err)
 		return err
 
 	}
-
 
 	if err := driver.Stop(); err != nil {
 		return err

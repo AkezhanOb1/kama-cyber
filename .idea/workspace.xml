@@ -6,9 +6,6 @@
       <change beforePath="$PROJECT_DIR$/front-end/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goBack/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/goBack/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goBack/selenium/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goBack/selenium/vendor/geckodriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goBack/selenium/vendor/selenium-server-standalone-3.14.0.jar" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,18 +21,22 @@
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.48" value="3" />
           <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="go" value="6" />
+          <entry key="go" value="7" />
+          <entry key="jpg" value="1" />
           <entry key="js" value="1" />
+          <entry key="json" value="1" />
           <entry key="lock" value="1" />
           <entry key="toml" value="2" />
         </counts>
@@ -43,7 +44,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="Go" value="6" />
+          <entry key="Go" value="7" />
+          <entry key="Image" value="1" />
+          <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="TOML file" value="2" />
@@ -51,17 +54,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="103" />
-          <entry key="go" value="1055" />
-          <entry key="js" value="440" />
+          <entry key="css" value="195" />
+          <entry key="go" value="1243" />
+          <entry key="js" value="706" />
           <entry key="toml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="103" />
-          <entry key="Go" value="1055" />
-          <entry key="JavaScript" value="440" />
+          <entry key="CSS" value="195" />
+          <entry key="Go" value="1243" />
+          <entry key="JavaScript" value="706" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -78,20 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goBack/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front-end/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+            <state relative-caret-position="465">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -102,8 +96,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-end/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goBack/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+              <folding>
+                <element signature="e#14#132#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,11 +141,12 @@
         <option value="$PROJECT_DIR$/goBack/selenium/selenium_test.go" />
         <option value="$PROJECT_DIR$/goBack/selenium/example_test.go" />
         <option value="$PROJECT_DIR$/goBack/selenium/main.go" />
-        <option value="$PROJECT_DIR$/front-end/src/App.css" />
         <option value="$PROJECT_DIR$/goBack/Agouti/Gopkg.toml" />
         <option value="$PROJECT_DIR$/goBack/Agouti/main.go" />
         <option value="$PROJECT_DIR$/goBack/Agouti/Validator.go" />
         <option value="$PROJECT_DIR$/goBack/Checker/Validator.go" />
+        <option value="$PROJECT_DIR$/front-end/package.json" />
+        <option value="$PROJECT_DIR$/front-end/src/App.css" />
         <option value="$PROJECT_DIR$/goBack/main.go" />
         <option value="$PROJECT_DIR$/front-end/src/App.js" />
       </list>
@@ -177,6 +184,32 @@
             <path>
               <item name="kama-cyber" type="b2602c69:ProjectViewProjectNode" />
               <item name="kama-cyber" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kama-cyber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kama-cyber" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kama-cyber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kama-cyber" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kama-cyber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kama-cyber" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kama-cyber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kama-cyber" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kama-cyber" type="b2602c69:ProjectViewProjectNode" />
@@ -223,8 +256,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26947704" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27588046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -255,8 +289,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/goBack/main.go</url>
-          <line>104</line>
-          <properties />
+          <line>107</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -272,23 +305,9 @@
     <entry file="file://$PROJECT_DIR$/front-end/src/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/goBack/Checker/Gopkg.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goBack/Checker/Gopkg.lock">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/goBack/Checker/Gopkg.toml" />
+    <entry file="file://$PROJECT_DIR$/goBack/Checker/Gopkg.lock" />
+    <entry file="file://$PROJECT_DIR$/goBack/Checker/Validator.go" />
     <entry file="file://$PROJECT_DIR$/goBack/db/db.go">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -296,24 +315,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goBack/Checker/Validator.go">
+    <entry file="file://$PROJECT_DIR$/front-end/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/assets/images/logo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/goBack/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+        <state relative-caret-position="405">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+        <state relative-caret-position="465">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
